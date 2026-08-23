@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Georgia', serif;
+  color: #2b1b1b;
+}
+
+.site-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.5rem 3rem;
+  background-color: #fdf6f3;
+}
+
+.logo {
+  font-size: 1.4rem;
+  letter-spacing: 2px;
+  font-weight: bold;
+  color: #b5443a;
+}
+
+.site-header nav a {
+  margin-left: 2rem;
+  text-decoration: none;
+  color: #2b1b1b;
+  font-size: 0.95rem;
+  letter-spacing: 0.5px;
+}
+
+.site-header nav a:hover {
+  color: #b5443a;
+}
